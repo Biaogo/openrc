@@ -87,7 +87,7 @@ check(){
 build(){
     local _meson_options=()
     _meson_options+=(
-        -Dbranding="\"Artix Linux\""
+        -Dbranding="\"Neko Linux\""
         -Dos=Linux
         -Drootprefix=/usr
         -Dshell=/bin/bash
